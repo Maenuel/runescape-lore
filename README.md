@@ -1,4 +1,4 @@
 # runescape-lore
-Editor: Maenuel fdsf
+Editor: Maenuel Würsten, Scot Rhodes
 
 school project

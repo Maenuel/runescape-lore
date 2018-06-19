@@ -1,1 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<God>
+	<name></name>
+	<age></age>
+	<colors></colors>
+	<ascension></ascension>
+	<gender></gender>
+	<birthRace></birthRace>
+	<description></description>
+	<image></image>
+	<tierID></tierID>
+</God>

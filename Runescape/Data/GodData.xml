@@ -1,5 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <God>
+	<name>Saradomin</name>
+	<age>10000</age>
+	<colors>Blue, yellow, white, silver</colors>
+	<ascension>Prolonged exposure to multiple Elder Artefacts, beginning with the Crown Archival</ascension>
+	<gender>Male</gender>
+	<birthRace>Human</birthRace>
+	<description>Presently, Saradomin has a vast number of followers, most of whom believe him to be the god of good,
+	 and there are far more churches dedicated to him than to other gods. Most of his modern followers reside in Misthalin, Asgarnia,
+	 Kandarin and Entrana, but there are several groups outside these areas. Unlike those of Zamorak or Guthix, his followers consist
+	 almost entirely of humans, though that was not always the case. Saradomin's symbol is a four-pointed star 
+	 (that is usually coloured gold or silver), which he likely took from his crown. Saradomin was the first god to return to 
+	 Gielinor in the Sixth Age, after Guthix's death. </description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Guthix</name>
+	<age>11000</age>
+	<colors>Green</colors>
+	<ascension>Killing Skargaroth with his sword, an Elder Artefact</ascension>
+	<gender>Male</gender>
+	<birthRace>Human</birthRace>
+	<description>He became a god at the end of a war between gods on his realm, which saw the deaths of all his friends and 
+	family. By killing the god Skargaroth, he ascended to godhood himself, after which he left his devastated world. 
+	Soon afterwards, he discovered Gielinor, and, astonished by its beauty, shaped it to his liking for mortals to live on 
+	it without interference from gods. He then populated the world and created runestones for its inhabitants to use, thus 
+	earning Gielinor the nickname RuneScape. He descended into a slumber, hoping to be forgotten by his worshippers, but other 
+	gods began to arrive in the following centuries, which eventually led to the breaking out of the God Wars. After four 
+	millennia of warring, Guthix awoke, ended the wars, and banished all gods, much to their followers' dismay. 
+	Nearly twenty-two centuries later, his cave was discovered and Guthix was murdered by the Zarosian Mahjarrat Sliske, shattering 
+	the Edicts he put in place after the God Wars. </description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Zamorak</name>
+	<age>10000</age>
+	<colors>Red, black, gold </colors>
+	<ascension>Obtaining the Stone of Jas and
+	defeating Zaros with Staff of Armadyl</ascension>
+	<gender>Male</gender>
+	<birthRace>Mahjarrat</birthRace>
+	<description>As a mortal, he was an exceptionally powerful warrior, but notably less skilled in magic compared to other 
+	Mahjarrat such as Azzanadra or Lucien. As a military genius who was also knowledgeable about Freneskae’s harsh culture, 
+	Zamorak assisted in creating a considerable empire in the Second Age, earning the title Legatus Maximus Zamorak the Scourge[1] 
+	by Zaros. Although Zamorak is considered as a mystical infatuation of chaos by his followers, he is seen as an evil god by his 
+	rivals and their followers. However, there has been a great deal of historical ignorance with respect to the human NPCs of 
+	Gielinor who got influenced by Saradomin. Zamorak simply grew tired of the stagnation in the Zarosian empire, already being the 
+	most powerful Mahjarrat at that time, followed by Azzanadra [7]. As a result, he betrayed Zaros with a large group of followers, 
+	and attained godhood by absorbing the Empty Lord's power by accident after having obtained the Stone of Jas which, in 
+	conjunction with the Staff of Armadyl, granted him enough power to do so. </description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Bandos</name>
+	<age>11000</age>
+	<colors>Teal, brown, dark green</colors>
+	<ascension>Killing the god Jododu Otoku</ascension>
+	<gender>Male</gender>
+	<birthRace>Kal-i-kra tribe</birthRace>
+	<description>Having first set foot on Gielinor in the Second Age, he was the patron god of the brutish and unintelligent races 
+	such as goblins, trolls,[5] ogres, and orks, most of whom he took with him from their realm Yu'biusk, where he had crossbred 
+	them after taking over. Some followers, mostly goblins, refer to him as the Big High War God 
+	(with the exception of priests on holy days,[1] although goblins native to Gielinor do not take this rule to heart[6]). 
+	He was almost completely forgotten by the humans of Gielinor due to his disappearance after the God Wars until his battle 
+	against Armadyl in the early Sixth Age, which ended with his death.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Armadyl</name>
+	<age>11000</age>
+	<colors>Pale blue, silver, amber, gold</colors>
+	<ascension>Unknown</ascension>
+	<gender>Male</gender>
+	<birthRace>Giant</birthRace>
+	<description>Armadyl was one of the major participants in the Gielinorian God Wars. Although the God Wars destroyed most of the 
+	aviantese, some of their warriors can still be found within the God Wars Dungeon, led by Armadyl's aviansie general, Kree'arra. 
+	The god left Gielinor at the end of the wars to roam the cosmos, mourning his lost kin; as a consequence, he had relatively 
+	little activity in Gielinor after the end of the God Wars, and he is not as well-known as Saradomin, Guthix and Zamorak, nor did 
+	he have a substantial following before the beginning of the Sixth Age.  Shortly after the death of Guthix Armadyl returned to 
+	Gielinor. He desires global safety and justice for his following.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Zaros</name>
+	<age>Unknown</age>
+	<colors>Purple, Black, Gold</colors>
+	<ascension>Chosen by Elder Gods</ascension>
+	<gender>Male</gender>
+	<birthRace>Incorporeal</birthRace>
+	<description>Unlike the young gods, Zaros was never a mortal; he has never been anything else but a divine being. 
+	Zaros and Seren were both created by the Elder God Mah on Freneskae when the last cycle of the universe began, 
+	what Zaros describes as eons ago, to serve as company. They were tied to each other in ways neither could control. 
+	It was a mutual "attraction" of sorts that weakened Zaros' concentration and Seren's will in order to bring them together. 
+	Mah, with the temperament of a child due to a lack of anima - thus making her a purely instinctual being without memory or 
+	knowledge - saw them as her "playthings", in a sense. However, Zaros resented this. Unable to learn anything from his creator, 
+	he longed to escape and create his own destiny. Seren, on the other hand, felt it was their duty to remain with Mah. 
+	She felt that Mah needed them and only created them out of the fear of being alone. Zaros abandoned both Mah and Seren. 
+	He set out to search the stars for whatever he would find. The first world he came to was that of Infernus. 
+	Zaros wants the world to belong to mortals, similarly to Guthix, but believes that mortals would neither be safe nor capable 
+	of living without the guidance of gods, who are able to set some rules and exercise proper control; otherwise, 
+	everything would turn to chaos. As such, he suggests that he watches mortals silently, making checks and balances to 
+	ensure 'balance' is maintained, and to silently guide mortals to fulfil their greatest potential and protect them from 
+	themselves and the Elder Gods. He strives to become an Elder God himself for it would be the only way for him to communicate 
+	with them, allowing him to attempt to stop them from destroying mortal life.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Seren</name>
+	<age>Unknown</age>
+	<colors>Cyan</colors>
+	<ascension>Chosen by Elder Gods</ascension>
+	<gender>Female</gender>
+	<birthRace>Devine Ice Crystal</birthRace>
+	<description>Seren, along with Zaros, was created by the Elder God Mah. Where Seren represents light, Zaros represents darkness: 
+	this binds the two and compels them to each other when in close proximity. When Zaros and Seren are near each other, 
+	they are charmed by each other, which Zaros thinks is controlled by Mah. Seren is described by Zaros to be driven more by 
+	emotion, whilst Zaros by logical reasoning. She had a close relationship with the god of balance, Guthix, who brought her to 
+	Gielinor from Tarddiad during the First Age through the World Gate, along with the elves. They settled in Tirannwn and built 
+	the great city of Prifddinas which is the oldest surviving settlement on Gielinor. As some of her beloved elves began to die of 
+	old age Seren became resolved in extending their lifespans. She did so, but at a cost: inexplicably tying them to her. 
+	When outside of her presence for too long the elves would become sick and feverish, eventually dying. Seren describes this 
+	as her greatest mistake.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Skargaroth</name>
+	<age>Unknown</age>
+	<colors>None</colors>
+	<ascension>Unknown</ascension>
+	<gender>Male</gender>
+	<birthRace>Unknown</birthRace>
+	<description>Skargaroth was an ancient and powerful god who contributed to the extinction of the Naragi and the destruction 
+	of Guthix's homeworld. During the late Naragun God Wars, Skargaroth battled the goddess Tuska and her armies, and was impaled 
+	before falling on top of a house. His weight destroyed the house, and Guthix's daughter Aagi, who was hiding inside, was killed 
+	with it. In retaliation, Guthix stabbed Skargaroth in his back with Skargaroth's own elder sword, which killed him and transferred 
+	his power and part of his knowledge to Guthix. Guthix then ascended into godhood. Skargaroth's dead form is seen as an empty and 
+	hollow shell of his body in Guthix's memory at the end of The World Wakes.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Tuska</name>
+	<age>Unknown</age>
+	<colors>Teal and possibly purple and grey.</colors>
+	<ascension>Killing a god</ascension>
+	<gender>Female</gender>
+	<birthRace>Unknown</birthRace>
+	<description>Tuska was a boar-like goddess who attacked Naragun during the Naragi God Wars. She fought against Saradomin, 
+	eventually making him move to another realm due to the disruption she caused. Tuska is described as a mindless beast that has 
+	managed to attain godhood. Since Tuska was a formidable foe, her presence attracted Skargaroth to hunt her down. During a fight 
+	between Tuska and Skargaroth, Guthix used the elder god sword he had found to severely wound Tuska by stabbing her in the eye, 
+	making her completely blind. Tuska finally met her demise at the hand of Vorago, after having attempted to invade 
+	and devour Gielinor.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Brassica Prime</name>
+	<age>Unknown</age>
+	<colors>Green, gold</colors>
+	<ascension>Unknown</ascension>
+	<gender>Male</gender>
+	<birthRace>Cabbage</birthRace>
+	<description>Brassica Prime is the cheerful patron god of all cabbages and, as such, takes the form of a giant cabbage. 
+	He claims to command the power of highly concentrated nutrients. Likely due to being a giant vegetable, 
+	Brassica Prime believes that power comes from deliciousness, probably due to the fact that most fruits and vegetables 
+	wish to be eaten to spread their seeds around, and thus the more deliciousness, the more chance of being picked and propagating.
+	Brassica was involved in the 2007 April Fools event, the 2009 April Fools event, and makes small appearances in The Death of 
+	Chivalry and Missing, Presumed Death. He also features in the Cabbage Facepunch Bonanza with the monkey goddess of parties, 
+	Marimbo, and briefly appeared for Sliske's Endgame.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Marimbo</name>
+	<age>5000</age>
+	<colors>Brown, Yellow</colors>
+	<ascension>Unintentionally killing a god in a drinking contest with the Elder Horn.</ascension>
+	<gender>Female</gender>
+	<birthRace>Gorilla</birthRace>
+	<description>Marimbo is the ancient and cheeky matron goddess of monkeys. At some point, she went to Ape Atoll in search of 
+	followers. There she found monkeys; she may or may not have granted them their intelligence. Marimbo decided to stay on 
+	Ape Atoll, and the monkeys there still worship her to this day. Once the Edicts of Guthix were established, Marimbo was 
+	forced to leave Gielinor and, according to Mod Osborne, because Marimbo is a light-hearted character she partied once the 
+	Third Age ended and the Edicts were introduced. This contrasts with the other gods, who were not happy to leave. The town 
+	Marim, on the island of Ape Atoll, is named after her and her only known place of worship is the temple there. Large statues of 
+	Marimbo sit inside the Temple of Marimbo on Ape Atoll. Players may see them next to the altar on the first floor of the building. 
+	The statues depict her as a giant gorilla. Her symbol is a triangle (or diamond) which points downwards, with a vertical spike 
+	hanging from the bottom point.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
 	<name></name>
 	<age></age>
 	<colors></colors>

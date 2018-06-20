@@ -16,6 +16,7 @@ import org.w3c.dom.Element;
 public class ReadGodData {
 	
 	public void selectGod() {
+		//Test
 		try {
 	         File inputFile = new File("/Runescape/Data/GodData.xml");
 	         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();

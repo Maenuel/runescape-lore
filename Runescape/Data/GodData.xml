@@ -199,13 +199,243 @@
 	<tierID></tierID>
 </God>
 <God>
-	<name></name>
-	<age></age>
-	<colors></colors>
-	<ascension></ascension>
-	<gender></gender>
-	<birthRace></birthRace>
-	<description></description>
+	<name>Elidinis</name>
+	<age>Unknown</age>
+	<colors>Yellow and turquoise</colors>
+	<ascension>Unknown</ascension>
+	<gender>Female</gender>
+	<birthRace>Unknown</birthRace>
+	<description>Elidinis is the Menaphite Goddess of Fertility and Growth, and is heavily associated with the River Elid. 
+	She is also the wife of Tumeken, the mother of Icthlarin and Amascut, and one of the four major gods of the Menaphite Pantheon. 
+	She plays a key part of the quest Spirits of the Elid. She is described by Senliten as "The water that gives life and soothes". 
+	Elidinis is mainly worshipped by the peoples of the desert. The centre of her worship is the town of Nardah. In Nardah, 
+	there is a shrine to Elidinis (Elidinis Statuette), provided by the god herself to Nardarine, a refugee of the God Wars, 
+	who went on to found and lead Nardah. Like most of the other gods, she was forced to leave after the God Wars due to the 
+	Edicts of Guthix.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Tumeken</name>
+	<age>Unknown</age>
+	<colors>Yellow and Grey</colors>
+	<ascension>Unknown</ascension>
+	<gender>Male</gender>
+	<birthRace>Unknown</birthRace>
+	<description>Tumeken, sometimes referred to in Menaphite texts as the Lord of Light and the God of 
+	the Sun, is the god of light, the husband of Elidinis, the father of Icthlarin and Amascut, one of the four major gods of the 
+	Menaphite Pantheon and co-founder of Kharidian. He is also responsible for using a piece of his essence to create the four 
+	minor gods of the pantheon, Het, Crondis, Apmeken, and Scabaras. Because of this, Tumeken is directly or indirectly responsible 
+	for creating a majority of the desert pantheon and can be seen as its leader, though he has not been active 
+	since the Second Age.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Amascut</name>
+	<age>300</age>
+	<colors>Cerise, gold and jade</colors>
+	<ascension>Infused with divine energy from Tumeken and Elidinis</ascension>
+	<gender>Female</gender>
+	<birthRace>Demigod</birthRace>
+	<description>Amascut, also known as "The Devourer", is the goddess of destruction and one of the four major gods of the 
+	Menaphite Pantheon, a family of deities that rule over the Kharidian Desert. She is the daughter of Tumeken and Elidinis and 
+	a sister to Icthlarin, another member of the Pantheon. Amascut is often depicted as a lioness-headed woman. Amascut plays the 
+	role of the desert quest series's primary antagonist, spreading chaos and terror, such as by devouring the Sophanem 
+	High Priest's soul and stealing the Kharid-ib, an ancient, powerful diamond. She was also featured in the Hallowe'en 2015 
+	event alongside Icthlarin and Death.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Icthlarin</name>
+	<age>300</age>
+	<colors>Ochre</colors>
+	<ascension>Infused with divine energy from Tumeken and Elidinis</ascension>
+	<gender>Male</gender>
+	<birthRace>Dog(Demigod)</birthRace>
+	<description>Icthlarin is the Menaphite god of the dead, son of Tumeken and Elidinis, and brother of Amascut, the Devourer, 
+	and one of the four major gods of the Desert Pantheon. He was the original leader of the Mahjarrat when they first came to 
+	Gielinor. His role as a god is not concerned with the act of death, but with the caretaking of the dead, ensuring that the 
+	souls reach the afterlife. Icthlarin's only act is to help the spirits of the dead pass through the Grim Underworld safely so 
+	they can reach the afterlife where they can rest peacefully in their next life. His task is impeded by his sister, however, 
+	because Amascut's goal is to destroy and consume the souls of the dead before they reach the underworld so they are erased 
+	completely. To this end, he is important in the funeral rites of those who worship him. This role as a protector of souls often 
+	brings Icthlarin into conflict with his sister goddess. He was featured in Hallowe'en 2015 event alongside with Death 
+	and Amascut. Cats are guardians of Icthlarin, as Amascut is terrified of them, and as the Sphinx protects the cats, so too does 
+	Icthlarin protect the Sphinx.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Scabaras</name>
+	<age>Unknown</age>
+	<colors>Beige, Dark Blue</colors>
+	<ascension>Unknown</ascension>
+	<gender>Male</gender>
+	<birthRace>Unknown</birthRace>
+	<description>Scabaras is one of the four minor gods of the Menaphite Pantheon, associated with isolation and tranquillity. 
+	Due to his nature, little is known of him, and since the banishment of The Sect of Scabaras, his following has diminished 
+	greatly. He is usually depicted as a scarab or insect-like humanoid.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Het</name>
+	<age>Unknown</age>
+	<colors>Unknown</colors>
+	<ascension>Unknown</ascension>
+	<gender>Male</gender>
+	<birthRace>Unknown</birthRace>
+	<description>Het is the desert god of health, both physical and mental, and is one of the four minor gods of the Menaphite 
+	Pantheon. A manifestation of Het can appear by picking up a canopic jar from Icthlarin's Little Helper. Het is probably the 
+	most worshipped of the minor Kharidian Desert gods, with great followings in each of the desert settlements. Al Kharid is 
+	particularity notable for this, with a majority of its citizens, such as Ozan, worshipping Het. In the early days, Tumeken had 
+	a dream where he wandered the desert, trying to find himself anew. He first travelled north, to a place called Al Kharid, 
+	finding many people weak and weary from desert life. When he reached the mountains surrounding Al Kharid, he saw a man holding 
+	the pass open, the physical representation of perfection. Tumeken was impressed by this and so gave the man some of his essence, 
+	turning him into Het.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Crondis</name>
+	<age>Unknown</age>
+	<colors>Unknown</colors>
+	<ascension>Unknown</ascension>
+	<gender>Female</gender>
+	<birthRace>Crocodile</birthRace>
+	<description>Crondis is a goddess with the head of a crocodile and the body of a woman. She is one of the four minor gods of 
+	the Menaphite Pantheon, and her following is particularly strong in Menaphos and Sophanem. However, as she is rarely spoken of, 
+	little is known of her. During Tumeken's Dream, he travelled to Ullek, hoping to see how devout they were. When he arrived, 
+	they arranged a feast, and he saw them as excessive and wasteful. He left the the city dispirited and headed into the nearby 
+	swamp, where he saw a crocodile capture and kill only enough to feed herself. Tumeken, impressed by this resourcefulness, 
+	gave her a piece of himself, turning her into the goddess Crondis.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Apmeken</name>
+	<age>Unknown</age>
+	<colors>Unknown</colors>
+	<ascension>Unknown</ascension>
+	<gender>Female</gender>
+	<birthRace>Human</birthRace>
+	<description>pmeken is the goddess of social pleasures, and is one of the four minor gods of the Menaphite Pantheon, 
+	a collection of deities that rule over the Kharidian Desert. Her following, as a result, is limited mainly to the desert areas, 
+	although the Menaphites of Sophanem follow her most devoutly. Little is known of Apmeken, as she is rarely spoken of, even in 
+	Sophanem. During Tumeken's Dream, he travelled westward, towards two camps. He found them at bitter odds with one another, 
+	arguing over everything. There were some monkeys nearby who were helping and playing with one another. He called out to them 
+	and one of the monkeys scrambled over, climbing onto his shoulder. He praised her joyous and social nature, giving her a part 
+	of himself and turning her into Apmeken.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Avatar of Bandos</name>
+	<age>Unknown</age>
+	<colors>Unknown(Ice)</colors>
+	<ascension>None</ascension>
+	<gender>None</gender>
+	<birthRace>None</birthRace>
+	<description>The Bandos avatar is the final boss of The Chosen Commander quest. It is the Goblin High Priest Bighead with 
+	the amulet of Bandos while being under his control. When the high priest took Bandos' pendant and equipped it, he became 
+	Bandos' avatar, since most of his power was in the pendant. In order to win against the avatar, you will have to shoot him 
+	with Zanik's crossbow. However, during the fight, the crossbow gets broken into three pieces, and needs to be reassembled 
+	again to work properly. After you defeat him the second time using the special crossbow is a dialogue option. However, if you 
+	do not follow the proper dialogue, he will use his powers to restore all of his health, making him technically immortal.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Jas</name>
+	<age>None</age>
+	<colors>White and cream</colors>
+	<ascension>Elder God</ascension>
+	<gender>Female</gender>
+	<birthRace>God</birthRace>
+	<description>Jas is the oldest and most powerful of the Elder Gods, the ancient beings responsible for the creation of the 
+	universe, including Gielinor itself. She is described by a TokHaar-Hok as "time, and so time passes. She is sand, 
+	and so there is desert." It has been said that the Elder Gods do not specifically represent an element or aspect, but Jas 
+	is most aligned with progression and time, and also has an association with sand and air. In addition to the roles she played 
+	in shaping the universe, Jas is specifically responsible for creating almost all of the Elder Artefacts using the Stone of Jas, 
+	the first artefact and the one that "most purely expressed her power," and one that has played a prominent role in Gielinor's 
+	history. As Mah was thought stillborn, Jas created the Catalyst and the other artefacts to fill the gap Mah left. 
+	The Catalyst's purpose was effectively to duplicate Mah's power. Normally, the Elder Gods work together when creating planes. 
+	With Mah gone however, each Elder God started creating their own planes in an effort to learn the knowledge lost by Mah's 
+	absence, while also destroying the planes from the previous cycle. Jas, with the Stone in her possession, came upon the 
+	Dragonkin homeworld, and prepared to destroy it. The Dragonkin tried in vain to take and use the Stone against her. Jas, 
+	seeing that life desired power, bound the Dragonkin to the Stone, so that they would no longer desire it.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Ful</name>
+	<age>None</age>
+	<colors>Red</colors>
+	<ascension>Elder God</ascension>
+	<gender>Female</gender>
+	<birthRace>God</birthRace>
+	<description>Ful is the Elder Goddess of Constancy and Fire. She is the creator of the Elder Kiln and the TokHaar race, 
+	and before the translation of the book written by a member of that race, nothing was known about Ful. She is the second 
+	oldest Elder God, as well as the second most powerful. Ful and her fellow Elder Gods created many planets in the multiverse; 
+	they created them successively in an attempt to create a perfect one. They originally created with their bare hands, but after 
+	many failures, created powerful artefacts to aid them and enhance their powers. Ful had created the Elder Kiln, and the TokHaar 
+	were created from it to build and shape mountains and planets. When the Elder Gods found the world they created to be imperfect, 
+	they would take their artefacts and abandon it. With each failure and experience, the gods and their artefacts — Ful, The Elder 
+	Kiln, the TokHaar — grew more skillful in creating worlds.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Wen</name>
+	<age>None</age>
+	<colors>Blue</colors>
+	<ascension>Elder God</ascension>
+	<gender>None</gender>
+	<birthRace>God</birthRace>
+	<description>Wen is one of the Elder Gods, the ancient beings responsible for the creation of the universe, including Gielinor 
+	itself. She is also the Elder God that is related to ice and the cold. She is the third oldest Elder God, as well as the third 
+	most powerful. According to Mod Rowley, her facet of time is Inversion. As her chronicle is found atop Ice Mountain, Wen may 
+	either reside underneath or could even be the mountain.  Wen may perhaps rest under both the Ice Mountain and the White Wolf 
+	Mountain, either broken in two somehow or being so large she also rests under everything in between these mountains. This is 
+	hypothesized by Azzanadra when talking to him about Elder Gods after completing Heart of Stone and The Temple at Senntisten. 
+	This is because Wen's Elder chronicle and WenKra are tied to Wen in some way and The Measure, being an Elder Artefact, would 
+	not be lying about Wen's location.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Bik</name>
+	<age>None</age>
+	<colors>Brown and green</colors>
+	<ascension>Elder God</ascension>
+	<gender>None</gender>
+	<birthRace>God</birthRace>
+	<description>Bik is one of the five Elder Gods, the ancient beings responsible for the creation of the universe, including 
+	Gielinor itself. She is the Elder God related to the forest and trees, and is the second youngest Elder God, as well as the 
+	second weakest. After Fate of the Gods, the locations of all the current Elder Gods on Gielinor may be revealed through elder 
+	chronicles, which can be found using The Measure. Bik resides underneath Entrana, where her Elder chronicle is found. 
+	In Heart of Stone the player visits Entrana again in search of the place where Bik is resting. Instead, they find a mouthpiece, 
+	BikKra, that speaks for the elder god. Upon arrival, BikKra challenges the player with three level 35 BikKra's attendants. 
+	After defeating all three, they may then speak with BikKra.</description>
+	<image></image>
+	<tierID></tierID>
+</God>
+<God>
+	<name>Mah</name>
+	<age>None</age>
+	<colors>Purple and Black</colors>
+	<ascension>Elder God</ascension>
+	<gender>None</gender>
+	<birthRace>God</birthRace>
+	<description>"Mother" Mah was the youngest of the Elder Gods, as well as the weakest, and was responsible for creating 
+	Zaros, Seren, the Mahjarrat tribe, and the Muspah, and was the only known Elder God to have deliberately created life for 
+	purposes other than protecting Elder Artefacts or building worlds. She also created the Mahkorat, Mahserrat and Chelon-Mah 
+	tribes, although the Mahjarrat came first. Wahisietel (as Ali the Wise) first mentioned her in Tale of the Muspah as a "cruel 
+	and archaic creator-god" who created the Muspah, which is further elaborated on in Wahisietel's memory from the Mahjarrat 
+	Memories miniquest. Mah makes her first appearance in Fate of the Gods, first dormant on the Freneskae volcano but awakening 
+	eventually after Zaros has been reincarnated. She later appears in Children of Mah where she meets her demise.</description>
 	<image></image>
 	<tierID></tierID>
 </God>

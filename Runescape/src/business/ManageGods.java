@@ -1,9 +1,14 @@
 package business;
 
+import data.ReadGodData;
+
 public class ManageGods {
 
-	//public God searchGod() {
-		
-	//}
+	public void searchGod() {
+		ReadGodData rgd = new ReadGodData();
+		rgd.getGod();
+		//return God
+	}
+	
 
 }

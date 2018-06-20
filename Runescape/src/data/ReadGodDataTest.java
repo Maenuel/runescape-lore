@@ -9,7 +9,7 @@ public class ReadGodDataTest {
 	@Test
 	public void test() {
 		ReadGodData rgd = new ReadGodData();
-		rgd.selectGod();
+		rgd.getGod();
 	}
 
 }

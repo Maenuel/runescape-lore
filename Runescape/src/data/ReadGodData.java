@@ -15,7 +15,11 @@ import org.w3c.dom.Element;
 
 public class ReadGodData {
 	
-	public void selectGod() {
+	public void getGodList() {
+		
+	}
+	
+	public void getGod() {
 		//Test
 		try {
 	         File inputFile = new File("/Runescape/Data/GodData.xml");
@@ -24,7 +28,7 @@ public class ReadGodData {
 	         Document doc = dBuilder.parse(inputFile);
 	         doc.getDocumentElement().normalize();
 	         System.out.println("Root element :" + doc.getDocumentElement().getNodeName());
-	         NodeList nList = doc.getElementsByTagName("student");
+	         NodeList nList = doc.getElementsByTagName("god");
 	         System.out.println("----------------------------");
 	         
 	         for (int temp = 0; temp < nList.getLength(); temp++) {
@@ -33,8 +37,8 @@ public class ReadGodData {
 	            
 	            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 	               Element eElement = (Element) nNode;
-	               System.out.println("Student roll no : " 
-	                  + eElement.getAttribute("rollno"));
+	               //System.out.println("Student roll no : " 
+	                 // + eElement.getAttribute("rollno"));
 	               System.out.println("First Name : " 
 	                  + eElement
 	                  .getElementsByTagName("name")
@@ -81,6 +85,6 @@ public class ReadGodData {
 	         e.printStackTrace();
 	      }
 	
-	
+	//return God
 	}
 }

@@ -1,9 +1,12 @@
 package presentation;
 
+import data.ReadGodData;
+
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ReadGodData rgd = new ReadGodData();
+		rgd.selectGod();
 
 	}
 

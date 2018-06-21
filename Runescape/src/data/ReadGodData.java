@@ -19,7 +19,7 @@ public class ReadGodData {
 	public void getGodList() {
 		
 	}
-	
+	//onegod
 	public void getGod() {
 		try {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

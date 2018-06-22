@@ -2,17 +2,18 @@ package business;
 
 public class Tier {
 	String description;
-	int ID;
+	String tierType;
+	int tierID;
 	public String getDescription() {
 		return description;
 	}
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public int getID() {	
-		return ID;
+	public int getTierID() {	
+		return tierID;
 	}
 	public void setID(int iD) {
-		ID = iD;
+		tierID = iD;
 	}
 }

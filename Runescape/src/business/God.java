@@ -1,7 +1,8 @@
 package business;
 
 public class God {
-	int age;
+	
+	String age;
 	String era;
 	String colors;
 	String ascension;
@@ -10,13 +11,28 @@ public class God {
 	String name;
 	String description;
 	String image;
+	int godID;
 	int	tierID;
 	
+	public God(String age,String era,String colors,String ascension,String gender,
+			String birthRace,String name,String description, String image, int tierID,int godID) {
+		this.age=age;
+		this.era=era;
+		this.colors=colors;
+		this.ascension=ascension;
+		this.gender=gender;
+		this.birthRace=birthRace;
+		this.name=name;
+		this.description=description;
+		this.image=image;
+		this.tierID=tierID;
+		this.godID=godID;
+	}
 	
-	public int getAge() {
+	public String getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(String age) {
 		this.age = age;
 	}
 	public String getEra() {
@@ -72,5 +88,11 @@ public class God {
 	}
 	public void setTierID(int tierID) {
 		this.tierID = tierID;
+	}
+	public int getGodID() {
+		return godID;
+	}
+	public void setGodID(int godID) {
+		this.godID=godID;
 	}
 }

@@ -20,6 +20,18 @@ import org.w3c.dom.Element;
 
 public class ReadGodData {
 	
+	String gage;
+	String gera;
+	String gcolors;
+	String gascension;
+	String ggender;
+	String gbirthRace;
+	String gname;
+	String gdescription;
+	String gimage;
+	int ggodID;
+	int	gtierID;
+	
 	public void getGodList() {
 		
 	}
@@ -42,11 +54,38 @@ public class ReadGodData {
 					Node n = namelist.item(j);
 					if(n.getNodeType()==Node.ELEMENT_NODE) {
 						Element name = (Element) n;
-						System.out.println("God "+id +": "+ name.getTagName() +"= "+ name.getTextContent());
-						
-						
-						
+						ggodID=Integer.parseInt(id);
+						switch(name.getTagName()) {
+						case "name":
+							gname = name.getTextContent();
+							break;
+						case "age":
+							gage=name.getTextContent();
+							break;
+						case "colors":
+							gcolors=name.getTextContent();
+							break;
+						case"ascension":
+							gascension=name.getTextContent();
+							break;
+						case"gender":
+							ggender=name.getTextContent();
+							break;
+						case"birthRace":
+							gbirthRace=name.getTextContent();
+							break;
+						case"description":
+							gdescription=name.getTextContent();
+							break;
+						case"image":
+							gimage=name.getTextContent();
+							break;
+						case"tierID":
+							gtierID=Integer.parseInt(name.getTextContent());
+							break;
+						}
 					}
+					 God ggod = new God(gage,gera,gcolors,gascension,ggender,gbirthRace,gname,gdescription,gimage,gtierID,ggodID);
 				}
 			}
 		}

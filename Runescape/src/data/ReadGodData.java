@@ -14,6 +14,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import business.God;
+import business.ManageGods;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
@@ -54,6 +55,7 @@ public class ReadGodData {
 					Node n = namelist.item(j);
 					if(n.getNodeType()==Node.ELEMENT_NODE) {
 						Element name = (Element) n;
+						
 						ggodID=Integer.parseInt(id);
 						switch(name.getTagName()) {
 						case "name":
@@ -83,11 +85,15 @@ public class ReadGodData {
 						case"tierID":
 							gtierID=Integer.parseInt(name.getTextContent());
 							break;
+							default:
+								break;
 						}
 					}
-					 God ggod = new God(gage,gera,gcolors,gascension,ggender,gbirthRace,gname,gdescription,gimage,gtierID,ggodID);
 				}
 			}
+			ManageGods managegods = new ManageGods();
+			 God ggod = new God(gage,gera,gcolors,gascension,ggender,gbirthRace,gname,gdescription,gimage,gtierID,ggodID);
+			 managegods.addGod(ggod);
 		}
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block

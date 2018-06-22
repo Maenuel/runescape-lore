@@ -20,7 +20,7 @@ public void getTier(){
 	try {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();
-		Document doc =builder.parse("GodData.xml");
+		Document doc =builder.parse("TierData.xml");
 		NodeList godsList = doc.getElementsByTagName("God");
 		for(int i=0;i<godsList.getLength();i++) {
 			Node p = godsList.item(i);

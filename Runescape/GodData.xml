@@ -14,7 +14,7 @@
 	 (that is usually coloured gold or silver), which he likely took from his crown. Saradomin was the first god to return to 
 	 Gielinor in the Sixth Age, after Guthix's death. </description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>3</tierID>
 </God>
 <God id="2">
 	<name>Guthix</name>
@@ -33,7 +33,7 @@
 	Nearly twenty-two centuries later, his cave was discovered and Guthix was murdered by the Zarosian Mahjarrat Sliske, shattering 
 	the Edicts he put in place after the God Wars. </description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>2</tierID>
 </God>
 <God id="3">
 	<name>Zamorak</name>
@@ -53,7 +53,7 @@
 	and attained godhood by absorbing the Empty Lord's power by accident after having obtained the Stone of Jas which, in 
 	conjunction with the Staff of Armadyl, granted him enough power to do so. </description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>5</tierID>
 </God>
 <God id="4">
 	<name>Bandos</name>
@@ -69,7 +69,7 @@
 	He was almost completely forgotten by the humans of Gielinor due to his disappearance after the God Wars until his battle 
 	against Armadyl in the early Sixth Age, which ended with his death.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>4</tierID>
 </God>
 <God id="5">
 	<name>Armadyl</name>
@@ -85,7 +85,7 @@
 	he have a substantial following before the beginning of the Sixth Age.  Shortly after the death of Guthix Armadyl returned to 
 	Gielinor. He desires global safety and justice for his following.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>4</tierID>
 </God>
 <God id="6">
 	<name>Zaros</name>
@@ -110,7 +110,7 @@
 	themselves and the Elder Gods. He strives to become an Elder God himself for it would be the only way for him to communicate 
 	with them, allowing him to attempt to stop them from destroying mortal life.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>2</tierID>
 </God>
 <God id="7">
 	<name>Seren</name>
@@ -129,7 +129,7 @@
 	When outside of her presence for too long the elves would become sick and feverish, eventually dying. Seren describes this 
 	as her greatest mistake.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>2</tierID>
 </God>
 <God id="8">
 	<name>Skargaroth</name>
@@ -145,7 +145,7 @@
 	his power and part of his knowledge to Guthix. Guthix then ascended into godhood. Skargaroth's dead form is seen as an empty and 
 	hollow shell of his body in Guthix's memory at the end of The World Wakes.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>4</tierID>
 </God>
 <God id="9">
 	<name>Tuska</name>
@@ -161,7 +161,7 @@
 	making her completely blind. Tuska finally met her demise at the hand of Vorago, after having attempted to invade 
 	and devour Gielinor.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>4</tierID>
 </God>
 <God id="10">
 	<name>Brassica Prime</name>
@@ -178,7 +178,7 @@
 	Chivalry and Missing, Presumed Death. He also features in the Cabbage Facepunch Bonanza with the monkey goddess of parties, 
 	Marimbo, and briefly appeared for Sliske's Endgame.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>5</tierID>
 </God>
 <God id="11">
 	<name>Marimbo</name>
@@ -197,7 +197,7 @@
 	The statues depict her as a giant gorilla. Her symbol is a triangle (or diamond) which points downwards, with a vertical spike 
 	hanging from the bottom point.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>5</tierID>
 </God>
 <God id="12">
 	<name>Elidinis</name>
@@ -214,7 +214,7 @@
 	who went on to found and lead Nardah. Like most of the other gods, she was forced to leave after the God Wars due to the 
 	Edicts of Guthix.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>5</tierID>
 </God>
 <God id="13">
 	<name>Tumeken</name>
@@ -230,7 +230,7 @@
 	for creating a majority of the desert pantheon and can be seen as its leader, though he has not been active 
 	since the Second Age.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>5</tierID>
 </God>
 <God id="14">
 	<name>Amascut</name>
@@ -246,7 +246,7 @@
 	High Priest's soul and stealing the Kharid-ib, an ancient, powerful diamond. She was also featured in the Hallowe'en 2015 
 	event alongside Icthlarin and Death.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>6</tierID>
 </God>
 <God id="15">
 	<name>Icthlarin</name>
@@ -266,7 +266,7 @@
 	and Amascut. Cats are guardians of Icthlarin, as Amascut is terrified of them, and as the Sphinx protects the cats, so too does 
 	Icthlarin protect the Sphinx.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>6</tierID>
 </God>
 <God id="16">
 	<name>Scabaras</name>
@@ -279,7 +279,7 @@
 	Due to his nature, little is known of him, and since the banishment of The Sect of Scabaras, his following has diminished 
 	greatly. He is usually depicted as a scarab or insect-like humanoid.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>7</tierID>
 </God>
 <God id="17">
 	<name>Het</name>
@@ -297,7 +297,7 @@
 	the pass open, the physical representation of perfection. Tumeken was impressed by this and so gave the man some of his essence, 
 	turning him into Het.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>7</tierID>
 </God>
 <God id="18">
 	<name>Crondis</name>
@@ -313,7 +313,7 @@
 	swamp, where he saw a crocodile capture and kill only enough to feed herself. Tumeken, impressed by this resourcefulness, 
 	gave her a piece of himself, turning her into the goddess Crondis.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>7</tierID>
 </God>
 <God id="19">
 	<name>Apmeken</name>
@@ -330,7 +330,7 @@
 	and one of the monkeys scrambled over, climbing onto his shoulder. He praised her joyous and social nature, giving her a part 
 	of himself and turning her into Apmeken.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>7</tierID>
 </God>
 <God id="20">
 	<name>Avatar of Bandos</name>
@@ -346,7 +346,7 @@
 	again to work properly. After you defeat him the second time using the special crossbow is a dialogue option. However, if you 
 	do not follow the proper dialogue, he will use his powers to restore all of his health, making him technically immortal.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>7</tierID>
 </God>
 <God id="21">
 	<name>Jas</name>
@@ -368,7 +368,7 @@
 	Dragonkin homeworld, and prepared to destroy it. The Dragonkin tried in vain to take and use the Stone against her. Jas, 
 	seeing that life desired power, bound the Dragonkin to the Stone, so that they would no longer desire it.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>1</tierID>
 </God>
 <God id="22">
 	<name>Ful</name>
@@ -386,7 +386,7 @@
 	they would take their artefacts and abandon it. With each failure and experience, the gods and their artefacts — Ful, The Elder 
 	Kiln, the TokHaar — grew more skillful in creating worlds.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>1</tierID>
 </God>
 <God id="23">
 	<name>Wen</name>
@@ -404,7 +404,7 @@
 	This is because Wen's Elder chronicle and WenKra are tied to Wen in some way and The Measure, being an Elder Artefact, would 
 	not be lying about Wen's location.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>1</tierID>
 </God>
 <God id="24">
 	<name>Bik</name>
@@ -421,7 +421,7 @@
 	BikKra, that speaks for the elder god. Upon arrival, BikKra challenges the player with three level 35 BikKra's attendants. 
 	After defeating all three, they may then speak with BikKra.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>1</tierID>
 </God>
 <God id="25">
 	<name>Mah</name>
@@ -438,6 +438,6 @@
 	Memories miniquest. Mah makes her first appearance in Fate of the Gods, first dormant on the Freneskae volcano but awakening 
 	eventually after Zaros has been reincarnated. She later appears in Children of Mah where she meets her demise.</description>
 	<image></image>
-	<tierID></tierID>
+	<tierID>1</tierID>
 </God>
 </Gods>

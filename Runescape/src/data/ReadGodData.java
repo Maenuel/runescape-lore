@@ -14,7 +14,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import business.God;
-import business.ManageGods;
+import business.Manage;
 
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
@@ -91,9 +91,9 @@ public class ReadGodData {
 					}
 				}
 			}
-			ManageGods managegods = new ManageGods();
+			Manage manage = new Manage();
 			 God ggod = new God(gage,gera,gcolors,gascension,ggender,gbirthRace,gname,gdescription,gimage,gtierID,ggodID);
-			 managegods.addGod(ggod);
+			 manage.addGod(ggod);
 		}
 		} catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block

@@ -1,16 +1,21 @@
 package presentation;
 
-import business.ManageGods;
+import business.Manage;
 import data.ReadGodData;
+import data.ReadTierData;
 
 public class main {
 
 	public static void main(String[] args) {
-		ReadGodData rgd = new ReadGodData();		
-		ManageGods managegods = new ManageGods();
+		ReadGodData rgd = new ReadGodData();	
+		ReadTierData rtd= new ReadTierData();
+		Manage manage = new Manage();
 		
 		rgd.getGod();
-		managegods.printGod();
+		rtd.getTier();
+		manage.printAllTier();
+		//manage.searchGod("Saradomin");
+		//managegods.printAllGod();
 		
 
 	}

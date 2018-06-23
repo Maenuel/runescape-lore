@@ -20,16 +20,18 @@ public class Manage {
 	}
 	public void printAllTier() {
 		for(Tier t: this.tier) {
-			System.out.println(t.getDescription()+" "+t.getTierID()+" "+t.getTierType());
+			//System.out.println(t.getDescription()+" "+t.getTierID()+" "+t.getTierType());
 		}
 	}
 	public void getTierData(int ID) {
 		
 	}
 	public void searchGod(String name){
-		if(god.contains(name)) {
-			//int d= god.indexOf(name);
-			System.out.println("Gott wurde gefunden");
+		for(God g :this.god) {
+			if(g.getName().equals(name)) {
+				System.out.print("Gott gefunden");
+			}
 		}
+		
 	}
 }

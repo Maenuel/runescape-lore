@@ -13,7 +13,7 @@ public class main {
 		rgd.getGod();
 		rtd.getTier();
 		//manage.printAllTier();
-		manage.searchGod("Sarafdomin");
+		//manage.searchGod("Sarafdomin");
 		//manage.printAllGod();
 		
 

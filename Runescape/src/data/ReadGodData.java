@@ -32,14 +32,9 @@ public class ReadGodData {
 	String gimage;
 	int ggodID;
 	int	gtierID;
-	
-	public void getGodList() {
-		
-	}
-	//onegod
+
+	//Read GodData.xml File and add to ArrayList in Manager
 	public void getGod() {
-		//List<int[]> rowList = new ArrayList<int[]>()
-		//God godobjekt = new God();
 		try {
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder builder = factory.newDocumentBuilder();

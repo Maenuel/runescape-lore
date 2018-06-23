@@ -22,6 +22,7 @@ public class ReadTierData {
 	String ttierType;
 	int ttierID;
 
+	//Read TierData.xml File and add to ArrayList in Manager
 	public void getTier() {
 		try {
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

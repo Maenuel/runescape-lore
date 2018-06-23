@@ -18,7 +18,7 @@ public class ManageGods {
 	}
 	public void printGod() {
 		for (God g : this.god) {
-			System.out.println(g.getAge()+g.getName());
+			//System.out.println(g.getAge()+g.getName());
 		}
 	}
 

@@ -27,7 +27,7 @@ public class ReadTierData {
 			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
 			Document doc = builder.parse("TierData.xml");
-			NodeList godsList = doc.getElementsByTagName("God");
+			NodeList godsList = doc.getElementsByTagName("Tier");
 			for (int i = 0; i < godsList.getLength(); i++) {
 				Node p = godsList.item(i);
 				if (p.getNodeType() == Node.ELEMENT_NODE) {

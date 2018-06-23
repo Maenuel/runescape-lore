@@ -10,12 +10,11 @@ public class main {
 		ReadGodData rgd = new ReadGodData();	
 		ReadTierData rtd= new ReadTierData();
 		Manage manage = new Manage();
-		
 		rgd.getGod();
 		rtd.getTier();
-		manage.printAllTier();
+		//manage.printAllTier();
 		//manage.searchGod("Saradomin");
-		//managegods.printAllGod();
+		//manage.printAllGod();
 		
 
 	}

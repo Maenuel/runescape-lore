@@ -7,12 +7,7 @@
 	<ascension>Prolonged exposure to multiple Elder Artefacts, beginning with the Crown Archival</ascension>
 	<gender>Male</gender>
 	<birthRace>Human</birthRace>
-	<description>Presently, Saradomin has a vast number of followers, most of whom believe him to be the god of good,
-	 and there are far more churches dedicated to him than to other gods. Most of his modern followers reside in Misthalin, Asgarnia,
-	 Kandarin and Entrana, but there are several groups outside these areas. Unlike those of Zamorak or Guthix, his followers consist
-	 almost entirely of humans, though that was not always the case. Saradomin's symbol is a four-pointed star 
-	 (that is usually coloured gold or silver), which he likely took from his crown. Saradomin was the first god to return to 
-	 Gielinor in the Sixth Age, after Guthix's death. </description>
+	<description>Presently, Saradomin has a vast number of followers, most of whom believe him to be the god of good, and there are far more churches dedicated to him than to other gods. Most of his modern followers reside in Misthalin, Asgarnia, Kandarin and Entrana, but there are several groups outside these areas. Unlike those of Zamorak or Guthix, his followers consist almost entirely of humans, though that was not always the case. Saradomin's symbol is a four-pointed star (that is usually coloured gold or silver), which he likely took from his crown. Saradomin was the first god to return to  Gielinor in the Sixth Age, after Guthix's death.</description>
 	<image></image>
 	<tierID>3</tierID>
 </God>
@@ -23,15 +18,7 @@
 	<ascension>Killing Skargaroth with his sword, an Elder Artefact</ascension>
 	<gender>Male</gender>
 	<birthRace>Human</birthRace>
-	<description>He became a god at the end of a war between gods on his realm, which saw the deaths of all his friends and 
-	family. By killing the god Skargaroth, he ascended to godhood himself, after which he left his devastated world. 
-	Soon afterwards, he discovered Gielinor, and, astonished by its beauty, shaped it to his liking for mortals to live on 
-	it without interference from gods. He then populated the world and created runestones for its inhabitants to use, thus 
-	earning Gielinor the nickname RuneScape. He descended into a slumber, hoping to be forgotten by his worshippers, but other 
-	gods began to arrive in the following centuries, which eventually led to the breaking out of the God Wars. After four 
-	millennia of warring, Guthix awoke, ended the wars, and banished all gods, much to their followers' dismay. 
-	Nearly twenty-two centuries later, his cave was discovered and Guthix was murdered by the Zarosian Mahjarrat Sliske, shattering 
-	the Edicts he put in place after the God Wars. </description>
+	<description>He became a god at the end of a war between gods on his realm, which saw the deaths of all his friends and family. By killing the god Skargaroth, he ascended to godhood himself, after which he left his devastated world. Soon afterwards, he discovered Gielinor, and, astonished by its beauty, shaped it to his liking for mortals to live on it without interference from gods. He then populated the world and created runestones for its inhabitants to use, thus earning Gielinor the nickname RuneScape. He descended into a slumber, hoping to be forgotten by his worshippers, but other gods began to arrive in the following centuries, which eventually led to the breaking out of the God Wars. After four millennia of warring, Guthix awoke, ended the wars, and banished all gods, much to their followers' dismay. Nearly twenty-two centuries later, his cave was discovered and Guthix was murdered by the Zarosian Mahjarrat Sliske, shattering the Edicts he put in place after the God Wars. </description>
 	<image></image>
 	<tierID>2</tierID>
 </God>
@@ -43,15 +30,7 @@
 	defeating Zaros with Staff of Armadyl</ascension>
 	<gender>Male</gender>
 	<birthRace>Mahjarrat</birthRace>
-	<description>As a mortal, he was an exceptionally powerful warrior, but notably less skilled in magic compared to other 
-	Mahjarrat such as Azzanadra or Lucien. As a military genius who was also knowledgeable about Freneskae’s harsh culture, 
-	Zamorak assisted in creating a considerable empire in the Second Age, earning the title Legatus Maximus Zamorak the Scourge[1] 
-	by Zaros. Although Zamorak is considered as a mystical infatuation of chaos by his followers, he is seen as an evil god by his 
-	rivals and their followers. However, there has been a great deal of historical ignorance with respect to the human NPCs of 
-	Gielinor who got influenced by Saradomin. Zamorak simply grew tired of the stagnation in the Zarosian empire, already being the 
-	most powerful Mahjarrat at that time, followed by Azzanadra [7]. As a result, he betrayed Zaros with a large group of followers, 
-	and attained godhood by absorbing the Empty Lord's power by accident after having obtained the Stone of Jas which, in 
-	conjunction with the Staff of Armadyl, granted him enough power to do so. </description>
+	<description>As a mortal, he was an exceptionally powerful warrior, but notably less skilled in magic compared to other Mahjarrat such as Azzanadra or Lucien. As a military genius who was also knowledgeable about Freneskae’s harsh culture, Zamorak assisted in creating a considerable empire in the Second Age, earning the title Legatus Maximus Zamorak the Scourge by Zaros. Although Zamorak is considered as a mystical infatuation of chaos by his followers, he is seen as an evil god by his rivals and their followers. However, there has been a great deal of historical ignorance with respect to the human NPCs of Gielinor who got influenced by Saradomin. Zamorak simply grew tired of the stagnation in the Zarosian empire, already being the most powerful Mahjarrat at that time, followed by Azzanadra. As a result, he betrayed Zaros with a large group of followers, and attained godhood by absorbing the Empty Lord's power by accident after having obtained the Stone of Jas which, in conjunction with the Staff of Armadyl, granted him enough power to do so. </description>
 	<image></image>
 	<tierID>5</tierID>
 </God>

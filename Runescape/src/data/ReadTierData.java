@@ -1,6 +1,7 @@
 package data;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -12,7 +13,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import business.God;
 import business.Manage;
 import business.Tier;
 
@@ -69,5 +69,53 @@ public class ReadTierData {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	}
+	
+	public ArrayList<Tier> getTiers() {
+		ArrayList<Tier> tiers = new ArrayList<Tier>();
+		try {
+			DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+			DocumentBuilder builder = factory.newDocumentBuilder();
+			Document doc = builder.parse("TierData.xml");
+			NodeList godsList = doc.getElementsByTagName("Tier");
+			for (int i = 0; i < godsList.getLength(); i++) {
+				Node p = godsList.item(i);
+				if (p.getNodeType() == Node.ELEMENT_NODE) {
+					Element tier = (Element) p;
+					String id = tier.getAttribute("id");
+					NodeList namelist = tier.getChildNodes();
+					for (int j = 0; j < namelist.getLength(); j++) {
+						Node n = namelist.item(j);
+						if (n.getNodeType() == Node.ELEMENT_NODE) {
+							Element name = (Element) n;
+
+							ttierID = Integer.parseInt(id);
+							switch (name.getTagName()) {
+							case "tierType":
+								ttierType = name.getTextContent();
+								break;
+							case "description":
+								tdescription = name.getTextContent();
+								break;
+							default:
+								break;
+							}
+						}
+					}
+				}
+				tiers.add(new Tier(ttierType,tdescription,ttierID));
+			}
+
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return tiers;
 	}
 }

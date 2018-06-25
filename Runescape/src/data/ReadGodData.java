@@ -101,4 +101,73 @@ public class ReadGodData {
 			e.printStackTrace();
 		}
 	}
+	
+	public ArrayList<God> getGods() {
+		ArrayList<God> gods = new ArrayList<God>();
+		try {
+		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder builder = factory.newDocumentBuilder();
+		Document doc =builder.parse("GodData.xml");
+		NodeList godsList = doc.getElementsByTagName("God");
+		for(int i=0;i<godsList.getLength();i++) {
+			Node p = godsList.item(i);
+			if(p.getNodeType()==Node.ELEMENT_NODE) {
+				Element god = (Element) p;
+				String id = god.getAttribute("id");
+				NodeList namelist = god.getChildNodes();
+				for(int j=0;j<namelist.getLength();j++) {
+					Node n = namelist.item(j);
+					if(n.getNodeType()==Node.ELEMENT_NODE) {
+						Element name = (Element) n;
+						
+						ggodID=Integer.parseInt(id);
+						switch(name.getTagName()) {
+						case "name":
+							gname = name.getTextContent();
+							break;
+						case "age":
+							gage=name.getTextContent();
+							break;
+						case "colors":
+							gcolors=name.getTextContent();
+							break;
+						case"ascension":
+							gascension=name.getTextContent();
+							break;
+						case"gender":
+							ggender=name.getTextContent();
+							break;
+						case"birthRace":
+							gbirthRace=name.getTextContent();
+							break;
+						case"description":
+							gdescription=name.getTextContent();
+							break;
+						case"image":
+							gimage=name.getTextContent();
+							break;
+						case"tierID":
+							gtierID=Integer.parseInt(name.getTextContent());
+							break;
+							default:
+								break;
+						}
+					}
+				}
+			}
+			
+			 gods.add(new God(gage,gera,gcolors,gascension,ggender,gbirthRace,gname,gdescription,gimage,gtierID,ggodID));
+		}
+		} catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SAXException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return gods;
+	}
 }

@@ -2,7 +2,7 @@ package business;
 
 import java.util.ArrayList;
 
-public class Manage implements IManage{
+public class Manage {
 
 	private static ArrayList<God> god = new ArrayList<God>();
 	private static ArrayList<Tier> tier = new ArrayList<Tier>();
@@ -36,12 +36,25 @@ public class Manage implements IManage{
 		}
 	}
 	//Search God by name
-	public void searchGod(String name) {
+	public ArrayList<String> searchGod(String name) {
 		for (God g : this.god) {
 			if (g.getName().equals(name)) {
-				// System.out.print("Gott gefunden");
+				ArrayList <String> data = new ArrayList <String>();
+				data.add(g.getName());
+				data.add(g.getAge());
+				data.add(g.getColors());
+				data.add(g.getAscension());
+				data.add(g.getGender());
+				data.add(g.getBirthRace());
+				data.add(g.getDescription());
+				data.add(g.getImage());
+				data.add(String.valueOf(g.getTierID()));
+				return data;
 			}
 		}
+		ArrayList <String> data = new ArrayList<String>();
+		data.add("Null");
+		return data;
 	}
 	//Filter God by Tier ID
 	public void filterGod(int tierID) {

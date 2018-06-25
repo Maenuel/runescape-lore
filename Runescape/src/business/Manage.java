@@ -2,7 +2,7 @@ package business;
 
 import java.util.ArrayList;
 
-public class Manage {
+public class Manage implements IManage{
 
 	private static ArrayList<God> god = new ArrayList<God>();
 	private static ArrayList<Tier> tier = new ArrayList<Tier>();

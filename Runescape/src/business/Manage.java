@@ -16,52 +16,39 @@ public class Manage implements IManage{
 		this.tier.add(tier);
 	}
 	//Print all God
-	public void printAllGod() {
-		for (God g : this.god) {
-			// System.out.println(g.getAge()+g.getName());
-		}
+	public ArrayList<God> printAllGod() {
+		return god;
 	}
 	//Print all Tier
-	public void printAllTier() {
-		for (Tier t : this.tier) {
-			// System.out.println(t.getDescription()+" "+t.getTierID()+" "+t.getTierType());
-		}
+	public ArrayList<Tier> printAllTier() {
+		return tier;
 	}
 	//Get Tier Data by ID
-	public void getTierData(int ID) {
-		for (Tier t : this.tier) {
-			if (t.getTierID() == ID) {
-				//System.out.println("Tier gefunden");
+	public Tier getTierData(int ID){
+		for(Tier t : tier) {
+			if(t.getTierID()==ID) {
+				return t;
 			}
 		}
+		return null;
 	}
 	//Search God by name
-	public ArrayList<String> searchGod(String name) {
-		for (God g : this.god) {
-			if (g.getName().equals(name)) {
-				ArrayList <String> data = new ArrayList <String>();
-				data.add(g.getName());
-				data.add(g.getAge());
-				data.add(g.getColors());
-				data.add(g.getAscension());
-				data.add(g.getGender());
-				data.add(g.getBirthRace());
-				data.add(g.getDescription());
-				data.add(g.getImage());
-				data.add(String.valueOf(g.getTierID()));
-				return data;
+	public God searchGod(String name) {
+		for(God g:god) {
+			if(g.getName().equals(name)) {
+				return g;
 			}
 		}
-		ArrayList <String> data = new ArrayList<String>();
-		data.add("Null");
-		return data;
+		return null;
 	}
 	//Filter God by Tier ID
-	public void filterGod(int tierID) {
+	public ArrayList<God> filterGod(int tierID) {
+		ArrayList<God> selGod = new ArrayList<God>();
 		for(God g:this.god) {
 			if(g.getTierID()==tierID) {
-				//System.out.println(g.getName());
+				selGod.add(g);
 			}
 		}
+		return selGod;
 	}
 }

@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public interface IManage {
 	public void addGod(God god);
 	public void addTier(Tier tier);
-	public void printAllGod();
-	public void printAllTier();
-	public void getTierData(int ID);
-	public ArrayList<String> searchGod(String name);
-	public void filterGod(int tierID);
+	public ArrayList<God> printAllGod();
+	public ArrayList<Tier> printAllTier();
+	public Tier getTierData(int ID);
+	public God searchGod(String name);
+	public ArrayList<God> filterGod(int tierID);
 }

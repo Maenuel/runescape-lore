@@ -68,7 +68,7 @@ public class Search {
 				
 				Manage manage = new Manage();
 				ArrayList <String> data = new ArrayList<String>();
-				data = manage.searchGod(god);
+				//data = manage.searchGod(god);
 
 				if(data == null) {
 					

@@ -12,6 +12,7 @@ public class main {
 		Manage manage = new Manage();
 		rgd.getGod();
 		rtd.getTier();
+		Search search = new Search();
 		//manage.printAllTier();
 		//manage.searchGod("Sarafdomin");
 		//manage.printAllGod();

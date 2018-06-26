@@ -20,21 +20,6 @@ public class Search {
 	private JFrame frame;
 	private JTextField textField;
 
-	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					Search window = new Search();
-					window.frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 
 	/**
 	 * Create the application.
@@ -80,11 +65,16 @@ public class Search {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				String god = textField.getText();
+				
 				Manage manage = new Manage();
 				ArrayList <String> data = new ArrayList<String>();
-				//data = manage.searchGod(god);
+				data = manage.searchGod(god);
 
+				if(data == null) {
+					
+				}
 			for(String g:data) {
+				
 				
 			}
 			}

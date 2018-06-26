@@ -11,11 +11,14 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 
 import business.God;
+import business.Tier;
 
 public class RunescapeGui {
 	private static JFrame frame;
-	private static JFrame godListFrame = null;
+	private static JFrame godListFrame;
+	private static JFrame tierListFrame;
 	private static JFrame godFrame;
+	private static JFrame tierFrame;
 	
 	public static void main(String[] args) {
 		createFrameFirstPage();
@@ -34,22 +37,33 @@ public class RunescapeGui {
 	private static void addFirstPageContent(Container container) {
 		JLabel label = new JLabel();
 		Button godButton = createGodButton();
+		Button tierButton = createTierListButton();
 		label = new JLabel("Runescape Gods Lore");
 		
 		container.add(label, BorderLayout.NORTH);
 		container.add(godButton, BorderLayout.WEST);
-		container.add(createTierListButton(), BorderLayout.EAST);
+		container.add(tierButton, BorderLayout.EAST);
 		
 		godButton.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO after backButton action = deactivated
-				if (godListFrame == null) {
 					createFrameGodsListPage();
 					frame.setVisible(false);
 					godListFrame.setVisible(true);
-				}
+			}
+		
+		});
+		
+		tierButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+					createTierListFrame();
+					frame.setVisible(false);
+					tierListFrame.setVisible(true);
 			}
 			
 		});
@@ -100,6 +114,50 @@ public class RunescapeGui {
 		
 	}
 	
+	public static void createTierListFrame() {
+		tierListFrame = new JFrame("Tier List");
+		
+		addContentTierListFrame(tierListFrame.getContentPane());
+		
+		tierListFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		tierListFrame.pack();
+	}
+	
+	private static void addContentTierListFrame(Container container) {
+		JLabel label = new JLabel();
+		TiersList tiersList = createTiersList();
+		Button backButton = createBackButton();
+		label = new JLabel("Tiers");
+		
+		container.add(label, BorderLayout.NORTH);
+		container.add(tiersList, BorderLayout.WEST);
+		container.add(backButton, BorderLayout.EAST);
+		
+		tiersList.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				int index = tiersList.getSelectedIndex();
+				if (index < 0) return; // TODO Address with Exception
+				Tier tier = tiersList.getTiers().get(index);
+				createTierFrame(tier);
+				tierListFrame.setVisible(false);
+				tierFrame.setVisible(true);
+			}
+			
+		});
+		
+		backButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				tierListFrame.setVisible(false);
+				frame.setVisible(true);
+			}
+			
+		});
+	}
+	
 	private static void createGodFrame(God god) {
 		godFrame = new JFrame();
 		godFrame.setSize(500, 450);
@@ -133,6 +191,39 @@ public class RunescapeGui {
 		});
 	}
 	
+	private static void createTierFrame(Tier tier) {
+		tierFrame = new JFrame();
+		tierFrame.setSize(500, 450);
+		
+		addContentTierFrame(tier, tierFrame.getContentPane());
+	}
+	
+	private static void addContentTierFrame(Tier tier, Container container) {
+		JLabel label = new JLabel();
+		JTextArea textArea = new JTextArea(tier.getDescription(), 10, 20);
+		textArea.setSize(350, 400);
+		textArea.setLineWrap(true);
+		Button backButton = createBackButton();
+		backButton.setSize(100,100);
+		label = new JLabel(tier.getTierType());
+		container.add(label, BorderLayout.NORTH);
+		
+		container.add(textArea, BorderLayout.WEST);
+		
+		container.add(backButton, BorderLayout.EAST);
+		
+		backButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				tierFrame.setVisible(false);
+				tierListFrame.setVisible(true);
+				tierFrame = null;
+			}
+			
+		});
+	}
+	
 	private static Button createGodButton() {
 		Button cmp = new Button("Gods");
 		cmp.setVisible(true);
@@ -157,5 +248,12 @@ public class RunescapeGui {
 		gods.setSize(150, 500);
 		gods.setVisible(true);
 		return gods;
+	}
+	
+	private static TiersList createTiersList() {
+		TiersList tiers = new TiersList();
+		tiers.setSize(150, 500);
+		tiers.setVisible(true);
+		return tiers;
 	}
 }
